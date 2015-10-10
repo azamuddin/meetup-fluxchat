@@ -1,0 +1,94 @@
+hr{
+  border: 0px;
+  border-bottom: 1px solid green;
+  margin:0px;
+}
+.chat-app{
+  width: 960px;
+  height:600px;
+  border:1px solid green;
+  margin: 0px auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.chat-app .login-box{
+  text-align: center;
+  width: 100%;
+}
+
+.chat-app .login-box input{
+  margin: 100px auto;
+  width:400px;
+  height:40px;
+  font-size: 18px;
+  border:1px solid green;
+}
+
+.chat-app .header h2 {
+  padding: 0 0 0 20px;
+}
+
+.chat-app .header .logout-btn{
+  border: 1px solid red;
+  padding: 5;
+  position: absolute;
+  top: 20;
+  right: 10;
+  background: red;
+  color: #fff;
+}
+.chat-app .friend-list{
+  width:30%;
+  float:left;
+  border-right:1px solid green;
+  height:600px;
+  overflow: hidden;
+}
+
+.chat-app .message-box{
+  width: 60%;
+  float:left;
+  padding-top:5px;
+}
+
+.chat-app .friend-list-item{
+  width:100%;
+  border-bottom: 1px solid green;
+  padding: 15px 0px 15px 5px;
+}
+
+.chat-app .message-screen{
+  width:100%;
+  height: 400px;
+  padding: 5px;
+  overflow: scroll;
+}
+
+.message-screen .message{
+  display:block;
+  margin-bottom: 20px;
+}
+
+.message-screen .message span.author{
+  font-weight: bold;
+  display: block;
+}
+
+.message-screen .message span.text{
+  display: block;
+}
+
+.chat-app .compose-message{
+  width:140%;
+  height:70px;
+  border-top: 1px solid green;
+  bottom:0px;
+  position: absolute;
+}
+
+.compose-message input[type='text']{
+  width: 50%;
+  height:70px;
+  font-size:24px;
+}
